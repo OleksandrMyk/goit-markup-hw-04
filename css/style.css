@@ -234,16 +234,9 @@ body {
     color: #ffffff;
 }
 
-.masters-social-icon:focus {
-    background-color: var(--accent-color);
-}
-
 .masters-social-link:hover {
     background-color: var(--accent-color);
-}
-
-.masters-social-link:hover .masters-social-icon {
-    fill: currentColor;
+    fill: #ffffff;
 }
 
 .about-list {
