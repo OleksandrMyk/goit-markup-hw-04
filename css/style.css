@@ -231,12 +231,16 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    color: #ffffff;
+    color: #afb1b8;
+}
+
+.masters-social-icon {
+    fill: currentColor;
 }
 
 .masters-social-link:hover {
     background-color: var(--accent-color);
-    fill: #ffffff;
+    color: #ffffff;
 }
 
 .about-list {
