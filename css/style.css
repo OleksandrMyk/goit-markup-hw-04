@@ -80,6 +80,8 @@ body {
 }
 
 .header-item-mail-tel {
+    display: flex;
+    align-items: center;
     text-decoration: none;
     font-weight: 500;
     font-size: 14px;
@@ -91,6 +93,11 @@ body {
 .header-item-mail-tel:hover,
 .header-item-mail-tel:focus {
     color: var(--accent-color);
+}
+
+.header-social-icon {
+    fill: currentColor;
+    margin-right: 10px;
 }
 
 /* navigation section */
@@ -366,6 +373,7 @@ body {
 }
 
 .footer-adres-conteiner {
+    width: 231px;
 }
 
 .footer-link {
@@ -400,7 +408,9 @@ body {
     align-items: baseline;
 }
 
-.footer-scocial-conteiner {
+.footer-social-conteiner {
+    width: 206px;
+    margin-left: 70px;
 }
 
 .footer-text {
@@ -410,6 +420,7 @@ body {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #ffffff;
+    margin-bottom: 20px;
 }
 
 .footer-social-list {
@@ -522,6 +533,12 @@ body {
     width: calc(100% / 3 - 30px);
     margin-left: 30px;
     margin-bottom: 30px;
+}
+
+.menu-personal-item:focus,
+.menu-personal-item:hover {
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+        1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
 .menu-title {
