@@ -365,6 +365,9 @@ body {
     background: #2f303a;
 }
 
+.footer-adres-conteiner {
+}
+
 .footer-link {
 }
 
@@ -390,6 +393,52 @@ body {
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
     margin-bottom: 9px;
+}
+
+.footer-cont {
+    display: flex;
+    align-items: baseline;
+}
+
+.footer-scocial-conteiner {
+}
+
+.footer-text {
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
+.footer-social-list {
+    display: flex;
+    justify-content: center;
+}
+
+.footer-social-item + .footer-social-item {
+    margin-left: 10px;
+}
+
+.footer-social-link {
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    display: flex;
+    background: rgba(255, 255, 255, 0.1);
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+}
+
+.footer-social-icon {
+    fill: currentColor;
+}
+
+.footer-social-link:hover {
+    background-color: var(--accent-color);
+    color: #ffffff;
 }
 
 /* --- menu-section 2 stor --- */
