@@ -360,6 +360,36 @@ body {
     color: #757575;
 }
 
+/* --- content-section --- */
+
+.content-section {
+}
+
+.content-title {
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+    margin-bottom: 50px;
+}
+
+.content-list {
+    display: flex;
+    margin-left: -30px;
+    margin-bottom: -30px;
+}
+
+.content-item {
+    width: calc(100% / 6 - 30px);
+    margin-left: 30px;
+    margin-bottom: 30px;
+}
+
+.content-icon {
+}
+
 /* --- footer-section --- */
 
 .address {
